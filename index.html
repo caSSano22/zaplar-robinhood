@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaplar | Frontier Agentic Operating System for Robinhood</title>
+    <meta name="description" content="Zaplar is a frontier agentic operating system for Robinhood that replaces legacy PMS, manual order entry, and execution engines with autonomous AI agents.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="py-2 text-center text-secondary border-bottom border-secondary fs-6" style="background-color: #030305;">
+        <span class="badge bg-purple text-white me-2" style="background-color: #8b5cf6;">AGENTIC V3.0</span>
+        Zaplar Agentic OS for Robinhood is now LIVE — <a href="#" class="text-white" data-bs-toggle="modal" data-bs-target="#demoModal">Request Demo Access</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="logo-badge">Z</span>
+                <span>Zaplar</span>
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modules">MODULES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#integrations">INTEGRATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#security">SECURITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center gap-3">
+                    <button class="btn-zaplar" data-bs-toggle="modal" data-bs-target="#demoModal">
+                        Book a Demo <i class="bi bi-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="mb-4">
+                <span class="hero-badge">
+                    <i class="bi bi-cpu-fill me-1"></i> FRONTIER AGENTIC OS FOR ROBINHOOD
+                </span>
+            </div>
+            <h1 class="mb-3">Autonomous Agentic OS <br><span style="background: linear-gradient(135deg, #a78bfa 0%, #06b6d4 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">for Robinhood Trading</span></h1>
+            <p class="hero-lead mb-4">
+                Zaplar is a frontier agentic operating system that replaces legacy PMS, manual order entry, and execution engines with 24/7 autonomous AI agents.
+            </p>
+            <div class="d-flex justify-content-center gap-3 mb-5">
+                <button class="btn-zaplar" data-bs-toggle="modal" data-bs-target="#demoModal">
+                    Book a Demo <i class="bi bi-calendar-event ms-1"></i>
+                </button>
+                <a href="#modules" class="btn-zaplar-outline">
+                    Explore OS Modules
+                </a>
+            </div>
+
+            <!-- Agentic OS Terminal Preview Showcase -->
+            <div class="p-4 rounded-4 border border-secondary text-start mx-auto shadow-lg" style="max-width: 980px; background-color: #0a0b12;">
+                <div class="d-flex align-items-center justify-content-between pb-3 mb-3 border-bottom border-secondary">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="spinner-grow spinner-grow-sm text-purple" style="color: #8b5cf6;" role="status"></span>
+                        <span class="font-monospace text-white fs-6">ZAPLAR_AGENTIC_OS_CORE // LIVE RUNTIME</span>
+                    </div>
+                    <div class="badge bg-dark border border-secondary text-cyan font-monospace">AGENT_HEALTH: 100%</div>
+                </div>
+
+                <div class="row g-4 font-monospace fs-6">
+                    <div class="col-md-4 border-end border-secondary">
+                        <div class="text-white mb-2 fw-bold">// ACTIVE AI AGENTS</div>
+                        <div class="p-2 mb-2 rounded bg-dark border border-secondary">
+                            <div class="text-purple fw-bold" style="color: #c4b5fd;">[Agent-Alpha] Risk Manager</div>
+                            <div class="text-muted fs-6">Status: Monitoring Portfolio Drift</div>
+                        </div>
+                        <div class="p-2 mb-2 rounded bg-dark border border-secondary">
+                            <div class="text-cyan fw-bold">[Agent-Beta] Order Router</div>
+                            <div class="text-muted fs-6">Status: Execution @ 0.02ms</div>
+                        </div>
+                        <div class="p-2 rounded bg-dark border border-secondary">
+                            <div class="text-success fw-bold">[Agent-Gamma] Arbitrage Scanner</div>
+                            <div class="text-muted fs-6">Status: Scanning 5,000 Tickers</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 ps-md-4">
+                        <div class="text-white mb-2 fw-bold">// AUTONOMOUS EXECUTION PIPELINE</div>
+                        <div class="text-muted mb-1">[00:48:10] <span class="text-purple" style="color: #c4b5fd;">AGENT_ALPHA</span>: Detected +5.4% volatility spike in NVDA</div>
+                        <div class="text-muted mb-1">[00:48:11] <span class="text-cyan">AGENT_BETA</span>: Routing 250 NVDA Limit Buy via Robinhood API</div>
+                        <div class="text-muted mb-1">[00:48:11] <span class="text-success">SUCCESS</span>: Executed @ $124.80 ($0 Commission Fee)</div>
+                        <div class="text-muted mb-1">[00:48:12] <span class="text-purple" style="color: #c4b5fd;">AGENT_GAMMA</span>: Auto Trailing Stop-Loss initialized</div>
+                        <div class="text-white mt-3">// MULTI-AGENT SWARM ACTIVE — WAITING FOR NEXT SIGNAL...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Zaplar / Key Capabilities -->
+    <section class="section-padding" id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-tag">// WHY ZAPLAR</span>
+                <h2 class="display-6 fw-bold text-white mb-3">Replace Admin Hours with Autonomous Agents</h2>
+                <p class="text-secondary mx-auto" style="max-width: 600px;">
+                    Zaplar frees traders and fund managers from manual tasks, allowing staff to focus on strategy and growth.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="zaplar-card">
+                        <div class="card-icon"><i class="bi bi-robot"></i></div>
+                        <h3>Autonomous Execution</h3>
+                        <p>AI agents handle 100% of order routing, rebalancing, and execution without human intervention.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="zaplar-card">
+                        <div class="card-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h3>Sub-Millisecond Speed</h3>
+                        <p>Direct Robinhood API connections execute trades in under 1 millisecond for zero slippage.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="zaplar-card">
+                        <div class="card-icon"><i class="bi bi-shield-lock"></i></div>
+                        <h3>Institutional Security</h3>
+                        <p>Hardware security enclave encryption ensures your Robinhood API credentials stay completely private.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agentic OS Modules -->
+    <section class="section-padding border-top border-bottom border-secondary bg-dark" id="modules">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-tag">// OS MODULES</span>
+                <h2 class="display-6 fw-bold text-white mb-3">All-in-One Frontier OS Architecture</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="zaplar-card">
+                        <div class="card-icon"><i class="bi bi-pie-chart"></i></div>
+                        <h3>Automated PMS (Portfolio Management)</h3>
+                        <p class="mb-3">Real-time asset tracking, automated risk rebalancing, and live PnL telemetry across US Stocks, ETFs, Options, and Crypto.</p>
+                        <ul class="text-secondary list-unstyled fs-6">
+                            <li><i class="bi bi-check2 text-cyan me-2"></i> Real-time Portfolio Drift Correction</li>
+                            <li><i class="bi bi-check2 text-cyan me-2"></i> Automated Tax-Loss Harvesting</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="zaplar-card">
+                        <div class="card-icon"><i class="bi bi-diagram-3"></i></div>
+                        <h3>Smart Agentic Order Router</h3>
+                        <p class="mb-3">Distributes order flows intelligently across Robinhood Instant liquidity pools for maximum price improvement.</p>
+                        <ul class="text-secondary list-unstyled fs-6">
+                            <li><i class="bi bi-check2 text-cyan me-2"></i> Smart Limit &amp; Stop Loss Triggers</li>
+                            <li><i class="bi bi-check2 text-cyan me-2"></i> 0% Commission Fee Routing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Metrics -->
+    <section class="section-padding" id="security">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <span class="section-tag">// PROVEN RESULTS</span>
+                    <h2 class="display-6 fw-bold text-white mb-4">Empowering the Future of Finance</h2>
+                    <p class="text-secondary mb-4">
+                        Zaplar replaces fragmented trading tools with a single unified agentic operating system built for modern Robinhood traders.
+                    </p>
+                    <button class="btn-zaplar" data-bs-toggle="modal" data-bs-target="#demoModal">
+                        Schedule a Demo <i class="bi bi-calendar-check ms-1"></i>
+                    </button>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="metric-box">
+                                <div class="metric-number text-purple" style="color: #a78bfa;">95%</div>
+                                <div class="text-secondary fs-6">Admin Time Saved</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="metric-box">
+                                <div class="metric-number text-cyan">99.99%</div>
+                                <div class="text-secondary fs-6">Execution Accuracy</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="metric-box">
+                                <div class="metric-number text-white">24 / 7</div>
+                                <div class="text-secondary fs-6">Autonomous Monitoring &amp; Trading</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section-padding border-top border-secondary" id="faq">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="section-tag">// FREQUENTLY ASKED QUESTIONS</span>
+                <h2 class="display-6 fw-bold text-white mb-3">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item bg-dark border border-secondary mb-3 rounded-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How does Zaplar integrate with Robinhood?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary border-top border-secondary">
+                                    Zaplar integrates via secure OAuth &amp; API key protocols. Your funds stay safe in your Robinhood account while Zaplar autonomous agents manage execution and monitoring.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-dark border border-secondary mb-3 rounded-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-dark text-white fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What asset classes are supported?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body text-secondary border-top border-secondary">
+                                    Zaplar supports all US Equities, ETFs, Options legs, and Crypto supported by Robinhood.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="section-padding bg-dark border-top border-secondary" id="pricing">
+        <div class="container">
+            <div class="p-5 rounded-4 border border-secondary text-center text-lg-start" style="background: linear-gradient(135deg, #0c0d14 0%, #17192a 100%);">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <span class="section-tag text-cyan">// GET STARTED TODAY</span>
+                        <h2 class="display-6 fw-bold text-white mb-3">Ready to Automate Your Robinhood OS?</h2>
+                        <p class="text-secondary mb-0">
+                            Book a personalized demo with our team to explore the Zaplar agentic operating system.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <button class="btn-zaplar" data-bs-toggle="modal" data-bs-target="#demoModal">
+                            Book a Demo <i class="bi bi-rocket-takeoff ms-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand text-white mb-3" href="index.html">
+                        <span class="logo-badge">Z</span>
+                        <span>Zaplar</span>
+                    </a>
+                    <p class="text-muted pe-lg-4">
+                        Frontier agentic operating system for Robinhood trading &amp; financial operations.
+                    </p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Platform</h5>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#modules">Modules</a></li>
+                        <li><a href="#security">Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#" data-bs-toggle="modal" data-bs-target="#demoModal">Contact Demo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Connect</h5>
+                    <p class="text-muted">Join the Zaplar agentic community.</p>
+                    <div class="d-flex gap-3 fs-5">
+                        <a href="https://twitter.com" target="_blank" title="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://telegram.org" target="_blank" title="Telegram"><i class="bi bi-telegram"></i></a>
+                        <a href="https://discord.com" target="_blank" title="Discord"><i class="bi bi-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <p class="mb-0 text-muted">&copy; 2026 Zaplar Inc. All rights reserved.</p>
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-muted">Privacy Policy</a>
+                    <a href="#" class="text-muted">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Request Modal -->
+    <div class="modal fade" id="demoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-bottom border-secondary">
+                    <h5 class="modal-title fw-bold text-white"><i class="bi bi-cpu-fill text-purple me-2" style="color: #8b5cf6;"></i> Book Zaplar Agentic Demo</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form onsubmit="event.preventDefault(); alert('Demo request received! Our team will contact you shortly.'); bootstrap.Modal.getInstance(document.getElementById('demoModal')).hide();">
+                        <div class="mb-3">
+                            <label class="form-label text-secondary fs-6">Full Name</label>
+                            <input type="text" class="form-control" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary fs-6">Work Email</label>
+                            <input type="email" class="form-control" placeholder="john@company.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-secondary fs-6">Account Type</label>
+                            <select class="form-select">
+                                <option selected>Individual Trader</option>
+                                <option>Hedge Fund / Prop Shop</option>
+                                <option>Family Office</option>
+                                <option>Institutional Investor</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-zaplar w-100 py-3 mt-2">
+                            Submit Demo Request <i class="bi bi-send ms-1"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
