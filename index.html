@@ -28,7 +28,7 @@
 <body>
     <!-- Top Emerald Green Announcement Banner (Exact Screenshot Match) -->
     <div class="top-announcement">
-        Zaplar is joining Y Combinator &middot; <a href="#" data-bs-toggle="modal" data-bs-target="#demoModal">Read the announcement &rarr;</a>
+        $ZAPLAR is LIVE on Virtuals Protocol &middot; <a href="https://app.virtuals.io/virtuals/127154" target="_blank">Trade $ZAPLAR on Virtuals &rarr;</a>
     </div>
 
     <!-- Clean White Navigation Bar (Exact Screenshot Match) -->
@@ -38,7 +38,7 @@
                 <ul class="navbar-nav d-none d-lg-flex flex-row gap-2">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ca">Token CA</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -50,10 +50,10 @@
             </a>
 
             <!-- Right CTA Button -->
-            <div>
-                <button class="btn-green-pill" data-bs-toggle="modal" data-bs-target="#demoModal">
-                    Book a demo &rarr;
-                </button>
+            <div class="d-flex gap-2">
+                <a href="https://app.virtuals.io/virtuals/127154" target="_blank" class="btn-green-pill">
+                    Trade $ZAPLAR &rarr;
+                </a>
             </div>
         </div>
     </nav>
@@ -69,9 +69,9 @@
                             <span class="rounded-circle bg-danger d-inline-block" style="width: 8px; height: 8px;"></span>
                             <span class="rounded-circle bg-warning d-inline-block" style="width: 8px; height: 8px;"></span>
                             <span class="rounded-circle bg-success d-inline-block" style="width: 8px; height: 8px;"></span>
-                            <span class="font-monospace text-muted fs-6 ms-2">zaplar-agentic-os-v3.2</span>
+                            <span class="font-monospace text-muted fs-6 ms-2">zaplar-agentic-os-v3.2 // $ZAPLAR</span>
                         </div>
-                        <div class="badge bg-success text-dark font-monospace">ONLINE</div>
+                        <div class="badge bg-success text-dark font-monospace">TOKEN LIVE</div>
                     </div>
 
                     <div class="p-4 text-start font-monospace fs-6 text-white" style="background-color: #0b0d14;">
@@ -110,10 +110,20 @@
             <p class="mb-4">
                 Zaplar replaces PMS, OMS, POS, and every trading tool in between.
             </p>
-            <div>
-                <button class="btn-white-pill" data-bs-toggle="modal" data-bs-target="#demoModal">
-                    Book a demo &rarr;
+            
+            <!-- Contract Address Display Banner -->
+            <div class="p-3 mb-4 rounded-pill border border-secondary d-inline-flex align-items-center gap-3 bg-dark font-monospace fs-6 text-white" id="ca">
+                <span class="text-success fw-bold">$ZAPLAR CA:</span>
+                <span id="caText">0x61acbe039bc9d0696b126cb4daaff7cecb0a3cfb</span>
+                <button class="btn btn-sm btn-outline-light rounded-circle" onclick="navigator.clipboard.writeText('0x61acbe039bc9d0696b126cb4daaff7cecb0a3cfb'); alert('CA copied to clipboard!');" title="Copy CA">
+                    <i class="bi bi-copy"></i>
                 </button>
+            </div>
+
+            <div>
+                <a href="https://app.virtuals.io/virtuals/127154" target="_blank" class="btn-white-pill">
+                    Buy $ZAPLAR on Virtuals &rarr;
+                </a>
             </div>
         </div>
     </section>
